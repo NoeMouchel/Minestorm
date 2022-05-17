@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{73664756-3f4a-46d6-a6fd-dd0c8c16248b}</ProjectGuid>
+    <RootNamespace>raytest2</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>externals/include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>externals\libs\raylib\Debug.DLL</AdditionalLibraryDirectories>
+      <AdditionalDependencies>raylib.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>externals/include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>externals\libs\raylib\Release.DLL</AdditionalLibraryDirectories>
+      <AdditionalDependencies>raylib.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="src\backgroundParticles.cpp" />
+    <ClCompile Include="src\boxCollider.cpp" />
+    <ClCompile Include="src\bullet.cpp" />
+    <ClCompile Include="src\circleCollider.cpp" />
+    <ClCompile Include="src\collider.cpp" />
+    <ClCompile Include="src\effect.cpp" />
+    <ClCompile Include="src\enemiesManager.cpp" />
+    <ClCompile Include="src\entity.cpp" />
+    <ClCompile Include="src\entitiesManager.cpp" />
+    <ClCompile Include="src\explosion.cpp" />
+    <ClCompile Include="src\fireballMine.cpp" />
+    <ClCompile Include="src\floatingMine.cpp" />
+    <ClCompile Include="src\FXManager.cpp" />
+    <ClCompile Include="src\game.cpp" />
+    <ClCompile Include="src\gameObject.cpp" />
+    <ClCompile Include="src\magneticFireballMine.cpp" />
+    <ClCompile Include="src\magneticMine.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\mine.cpp" />
+    <ClCompile Include="src\mineLayer.cpp" />
+    <ClCompile Include="src\multiPolygonCollider.cpp" />
+    <ClCompile Include="src\particle.cpp" />
+    <ClCompile Include="src\player.cpp" />
+    <ClCompile Include="src\polygonCollider.cpp" />
+    <ClCompile Include="src\propulsion.cpp" />
+    <ClCompile Include="src\renderer.cpp" />
+    <ClCompile Include="src\soundManager.cpp" />
+    <ClCompile Include="src\spawner.cpp" />
+    <ClCompile Include="src\spawnPoint.cpp" />
+    <ClCompile Include="src\vortex.cpp" />
+    <ClCompile Include="src\windowManager.cpp" />
+    <ClCompile Include="toolBox\collision2.cpp" />
+    <ClCompile Include="toolBox\range2.cpp" />
+    <ClCompile Include="toolBox\referential2.cpp" />
+    <ClCompile Include="toolBox\toolbox.cpp" />
+    <ClCompile Include="toolBox\vector2.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\backgroundParticles.h" />
+    <ClInclude Include="include\boxCollider.h" />
+    <ClInclude Include="include\bullet.h" />
+    <ClInclude Include="include\circleCollider.h" />
+    <ClInclude Include="include\collider.h" />
+    <ClInclude Include="include\effect.h" />
+    <ClInclude Include="include\enemiesManager.h" />
+    <ClInclude Include="include\entity.h" />
+    <ClInclude Include="include\entitiesManager.h" />
+    <ClInclude Include="include\explosion.h" />
+    <ClInclude Include="include\fireballMine.h" />
+    <ClInclude Include="include\floatingMine.h" />
+    <ClInclude Include="include\FXManager.h" />
+    <ClInclude Include="include\game.h" />
+    <ClInclude Include="include\gameObject.h" />
+    <ClInclude Include="include\magneticFireballMine.h" />
+    <ClInclude Include="include\magneticMine.h" />
+    <ClInclude Include="include\mine.h" />
+    <ClInclude Include="include\mineLayer.h" />
+    <ClInclude Include="include\multiPolygonCollider.h" />
+    <ClInclude Include="include\particle.h" />
+    <ClInclude Include="include\player.h" />
+    <ClInclude Include="include\polygonCollider.h" />
+    <ClInclude Include="include\propulsion.h" />
+    <ClInclude Include="include\renderer.h" />
+    <ClInclude Include="include\settings.h" />
+    <ClInclude Include="include\soundManager.h" />
+    <ClInclude Include="include\spawner.h" />
+    <ClInclude Include="include\spawnPoint.h" />
+    <ClInclude Include="include\vortex.h" />
+    <ClInclude Include="include\windowManager.h" />
+    <ClInclude Include="toolBox\collision2.h" />
+    <ClInclude Include="toolBox\primitives2.h" />
+    <ClInclude Include="toolBox\range2.h" />
+    <ClInclude Include="toolBox\referential2.h" />
+    <ClInclude Include="toolBox\toolbox.h" />
+    <ClInclude Include="toolBox\vector2.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

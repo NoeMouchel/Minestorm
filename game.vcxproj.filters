@@ -1,0 +1,283 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\game.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="toolBox\collision2.cpp">
+      <Filter>toolBox</Filter>
+    </ClCompile>
+    <ClCompile Include="toolBox\range2.cpp">
+      <Filter>toolBox</Filter>
+    </ClCompile>
+    <ClCompile Include="toolBox\referential2.cpp">
+      <Filter>toolBox</Filter>
+    </ClCompile>
+    <ClCompile Include="toolBox\vector2.cpp">
+      <Filter>toolBox</Filter>
+    </ClCompile>
+    <ClCompile Include="toolBox\toolbox.cpp">
+      <Filter>toolBox</Filter>
+    </ClCompile>
+    <ClCompile Include="src\renderer.cpp">
+      <Filter>src\Media</Filter>
+    </ClCompile>
+    <ClCompile Include="src\windowManager.cpp">
+      <Filter>src\Media</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soundManager.cpp">
+      <Filter>src\Media</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gameObject.cpp">
+      <Filter>src\GameObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\collider.cpp">
+      <Filter>src\GameObjects\Colliders</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boxCollider.cpp">
+      <Filter>src\GameObjects\Colliders</Filter>
+    </ClCompile>
+    <ClCompile Include="src\circleCollider.cpp">
+      <Filter>src\GameObjects\Colliders</Filter>
+    </ClCompile>
+    <ClCompile Include="src\multiPolygonCollider.cpp">
+      <Filter>src\GameObjects\Colliders</Filter>
+    </ClCompile>
+    <ClCompile Include="src\polygonCollider.cpp">
+      <Filter>src\GameObjects\Colliders</Filter>
+    </ClCompile>
+    <ClCompile Include="src\entitiesManager.cpp">
+      <Filter>src\GameObjects\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\player.cpp">
+      <Filter>src\GameObjects\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\fireballMine.cpp">
+      <Filter>src\GameObjects\Entities\Enemies\Mine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\floatingMine.cpp">
+      <Filter>src\GameObjects\Entities\Enemies\Mine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\magneticFireballMine.cpp">
+      <Filter>src\GameObjects\Entities\Enemies\Mine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\magneticMine.cpp">
+      <Filter>src\GameObjects\Entities\Enemies\Mine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mineLayer.cpp">
+      <Filter>src\GameObjects\Entities\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="src\enemiesManager.cpp">
+      <Filter>src\GameObjects\Entities\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mine.cpp">
+      <Filter>src\GameObjects\Entities\Enemies\Mine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spawnPoint.cpp">
+      <Filter>src\GameObjects\Entities\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="src\entity.cpp">
+      <Filter>src\GameObjects\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\bullet.cpp">
+      <Filter>src\GameObjects\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\particle.cpp">
+      <Filter>src\GameObjects\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backgroundParticles.cpp">
+      <Filter>src\GameObjects\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\effect.cpp">
+      <Filter>src\GameObjects\Effects\FX</Filter>
+    </ClCompile>
+    <ClCompile Include="src\explosion.cpp">
+      <Filter>src\GameObjects\Effects\FX</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FXManager.cpp">
+      <Filter>src\GameObjects\Effects\FX</Filter>
+    </ClCompile>
+    <ClCompile Include="src\propulsion.cpp">
+      <Filter>src\GameObjects\Effects\FX</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vortex.cpp">
+      <Filter>src\GameObjects\Effects\FX</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spawner.cpp">
+      <Filter>src\GameObjects\Entities\Enemies</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\game.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="toolBox\collision2.h">
+      <Filter>toolBox</Filter>
+    </ClInclude>
+    <ClInclude Include="toolBox\primitives2.h">
+      <Filter>toolBox</Filter>
+    </ClInclude>
+    <ClInclude Include="toolBox\range2.h">
+      <Filter>toolBox</Filter>
+    </ClInclude>
+    <ClInclude Include="toolBox\referential2.h">
+      <Filter>toolBox</Filter>
+    </ClInclude>
+    <ClInclude Include="toolBox\vector2.h">
+      <Filter>toolBox</Filter>
+    </ClInclude>
+    <ClInclude Include="toolBox\toolbox.h">
+      <Filter>toolBox</Filter>
+    </ClInclude>
+    <ClInclude Include="include\renderer.h">
+      <Filter>include\Media</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soundManager.h">
+      <Filter>include\Media</Filter>
+    </ClInclude>
+    <ClInclude Include="include\windowManager.h">
+      <Filter>include\Media</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gameObject.h">
+      <Filter>include\GameObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\collider.h">
+      <Filter>include\GameObjects\Colliders</Filter>
+    </ClInclude>
+    <ClInclude Include="include\boxCollider.h">
+      <Filter>include\GameObjects\Colliders</Filter>
+    </ClInclude>
+    <ClInclude Include="include\circleCollider.h">
+      <Filter>include\GameObjects\Colliders</Filter>
+    </ClInclude>
+    <ClInclude Include="include\multiPolygonCollider.h">
+      <Filter>include\GameObjects\Colliders</Filter>
+    </ClInclude>
+    <ClInclude Include="include\polygonCollider.h">
+      <Filter>include\GameObjects\Colliders</Filter>
+    </ClInclude>
+    <ClInclude Include="include\entitiesManager.h">
+      <Filter>include\GameObjects\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="include\player.h">
+      <Filter>include\GameObjects\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="include\spawnPoint.h">
+      <Filter>include\GameObjects\Entities\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="include\mine.h">
+      <Filter>include\GameObjects\Entities\Enemies\Mine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\fireballMine.h">
+      <Filter>include\GameObjects\Entities\Enemies\Mine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\floatingMine.h">
+      <Filter>include\GameObjects\Entities\Enemies\Mine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\magneticFireballMine.h">
+      <Filter>include\GameObjects\Entities\Enemies\Mine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\magneticMine.h">
+      <Filter>include\GameObjects\Entities\Enemies\Mine</Filter>
+    </ClInclude>
+    <ClInclude Include="include\mineLayer.h">
+      <Filter>include\GameObjects\Entities\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="include\enemiesManager.h">
+      <Filter>include\GameObjects\Entities\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="include\settings.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\entity.h">
+      <Filter>include\GameObjects\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="include\bullet.h">
+      <Filter>include\GameObjects\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="include\backgroundParticles.h">
+      <Filter>include\GameObjects\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\effect.h">
+      <Filter>include\GameObjects\Effects\FX</Filter>
+    </ClInclude>
+    <ClInclude Include="include\explosion.h">
+      <Filter>include\GameObjects\Effects\FX</Filter>
+    </ClInclude>
+    <ClInclude Include="include\propulsion.h">
+      <Filter>include\GameObjects\Effects\FX</Filter>
+    </ClInclude>
+    <ClInclude Include="include\particle.h">
+      <Filter>include\GameObjects\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FXManager.h">
+      <Filter>include\GameObjects\Effects\FX</Filter>
+    </ClInclude>
+    <ClInclude Include="include\vortex.h">
+      <Filter>include\GameObjects\Effects\FX</Filter>
+    </ClInclude>
+    <ClInclude Include="include\spawner.h">
+      <Filter>include\GameObjects\Entities</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{0d8084e2-44a0-47d4-84be-adcdaafb9312}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{b327a553-ad0d-4f07-bef6-4dca8c2a69e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="toolBox">
+      <UniqueIdentifier>{e41c980d-6227-4119-af7b-cc94f012bc14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\Media">
+      <UniqueIdentifier>{d2bdd2ab-8f79-40b0-80c2-9b27afb812fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Media">
+      <UniqueIdentifier>{cc89f84c-c0ce-40cd-b428-fb57929fe590}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\GameObjects">
+      <UniqueIdentifier>{74d01088-1019-46cf-83d8-ee926d482160}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\GameObjects">
+      <UniqueIdentifier>{044c6070-0d85-4ffe-80a4-f956536a4de9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\GameObjects\Colliders">
+      <UniqueIdentifier>{903e5ccb-dc0a-435f-bb68-7f780a6ef1f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\GameObjects\Colliders">
+      <UniqueIdentifier>{8b97a381-4f3c-4957-a1f0-f9e5981c2bc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\GameObjects\Entities">
+      <UniqueIdentifier>{c64c3e4d-2838-4a28-aefa-0425d2a7b5a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\GameObjects\Entities">
+      <UniqueIdentifier>{58b8bf34-1256-4f1f-9132-54d3ba3f57c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\GameObjects\Entities\Enemies">
+      <UniqueIdentifier>{592e4751-6417-446a-ad12-0fcc77769931}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\GameObjects\Entities\Enemies\Mine">
+      <UniqueIdentifier>{036cc96e-1f9c-41d1-a715-24904a461486}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\GameObjects\Entities\Enemies">
+      <UniqueIdentifier>{d0fe2785-f981-4a1d-a9f4-de9f183a8e45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\GameObjects\Entities\Enemies\Mine">
+      <UniqueIdentifier>{1f5c6aca-cf7d-4922-9255-ed1eff43c814}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\GameObjects\Effects">
+      <UniqueIdentifier>{cd82406a-f8f4-474e-8aab-40f6d873ee31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\GameObjects\Effects">
+      <UniqueIdentifier>{ec29484f-9903-470a-9775-8740bdcc13ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\GameObjects\Effects\FX">
+      <UniqueIdentifier>{47e71aad-1177-4675-ac11-dfb03ea52df8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\GameObjects\Effects\FX">
+      <UniqueIdentifier>{70981210-5c95-4479-97fe-3065a4221742}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

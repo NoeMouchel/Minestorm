@@ -1,16 +1,4 @@
-Minesotrm par Noé Mouchel 24/11/2020
-
----
-# **Sommaire**
-
-
-- ## How to play
-- ## Description
-- ## Inputs
-- ## Maths tools
-- ## Features
-- ## Known bugs
-- ## Images
+Minesotrm by Noé Mouchel 24/11/2020
 
 ---
 # **How to play**

@@ -1,0 +1,17 @@
+x64/**
+
+!x64/Debug
+x64/Debug/**
+!x64/Debug/raylib.dll
+
+!x64/Release
+x64/Release/**
+!x64/Release/raylib.dll
+
+.vs/**
+**.o
+**.obj
+**.d
+**.exe
+**.user
+**.suo
